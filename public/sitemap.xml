@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <sitemap>
+    <loc>https://webzech.de/sitemap-de.xml</loc>
+    <lastmod>2026-10-01</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://webzech.de/sitemap-en.xml</loc>
+    <lastmod>2026-10-01</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://webzech.de/sitemap-ru.xml</loc>
+    <lastmod>2026-10-01</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://webzech.de/sitemap-uk.xml</loc>
+    <lastmod>2026-10-01</lastmod>
+  </sitemap>
+</sitemapindex>

@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://webzech.de/sitemap.xml
+Sitemap: https://webzech.de/sitemap-de.xml
+Sitemap: https://webzech.de/sitemap-en.xml
+Sitemap: https://webzech.de/sitemap-ru.xml
+Sitemap: https://webzech.de/sitemap-uk.xml

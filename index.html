@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Webzech – Webentwicklung, Webdesign & SEO Agentur für Unternehmen</title>
+    <meta name="description" content="Professionelle Websites, moderne Webentwicklung, WordPress, Landingpages und nachhaltiges SEO für Unternehmen in Deutschland von Awais Abid & Werner Polatschek." />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Webzech" />
+    <meta property="og:title" content="Webzech – Webentwicklung, Webdesign & SEO Agentur für Unternehmen" />
+    <meta property="og:description" content="Professionelle Websites, moderne Webentwicklung, WordPress, Landingpages und nachhaltiges SEO für Unternehmen in Deutschland von Awais Abid & Werner Polatschek." />
+    <meta property="og:locale" content="de_DE" />
+    <meta property="og:locale:alternate" content="en_US" />
+    <meta property="og:locale:alternate" content="ru_RU" />
+    <meta property="og:locale:alternate" content="uk_UA" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Webzech – Webentwicklung, Webdesign & SEO Agentur" />
+    <meta name="twitter:description" content="Professionelle Websites, Webentwicklung & SEO für Unternehmen in Deutschland. Persönlich, transparent und technisch auf höchstem Niveau." />
+
+    <!-- Google Fonts: Plus Jakarta Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
+
+    <!-- Schema.org Organization & WebSite JSON-LD -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Organization",
+          "@id": "https://webzech.de/#organization",
+          "name": "Webzech",
+          "url": "https://webzech.de",
+          "logo": "https://webzech.de/logo.svg",
+          "description": "Agentur für professionelle Webentwicklung, WordPress, Landingpages und SEO in Deutschland.",
+          "founder": [
+            {
+              "@type": "Person",
+              "name": "Awais Abid",
+              "jobTitle": "Founder / Web Developer / Web Designer"
+            },
+            {
+              "@type": "Person",
+              "name": "Werner Polatschek",
+              "jobTitle": "Co-Founder / Business & Project Partner"
+            }
+          ],
+          "areaServed": [
+            { "@type": "AdministrativeArea", "name": "Bayern" },
+            { "@type": "City", "name": "Passau" },
+            { "@type": "City", "name": "Vilshofen" },
+            { "@type": "City", "name": "München" },
+            { "@type": "City", "name": "Berlin" },
+            { "@type": "City", "name": "Hamburg" },
+            { "@type": "City", "name": "Frankfurt" },
+            { "@type": "City", "name": "Düsseldorf" }
+          ]
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://webzech.de/#website",
+          "url": "https://webzech.de",
+          "name": "Webzech",
+          "publisher": { "@id": "https://webzech.de/#organization" },
+          "inLanguage": ["de-DE", "en-US", "ru-RU", "uk-UA"]
+        }
+      ]
+    }
+    </script>
+  </head>
+  <body class="bg-white text-slate-900 antialiased selection:bg-blue-600 selection:text-white">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+
